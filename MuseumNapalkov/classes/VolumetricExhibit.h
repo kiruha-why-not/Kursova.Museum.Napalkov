@@ -20,7 +20,6 @@ public:
     double getObjWidth()  const;
     double getObjLength() const;
     double getObjHeight() const;
-    double getFootprint() const; // площа підлоги під експонатом
 
     // Поміщається, якщо: розміри <= розміри кімнати
     bool fitsInRoom(const Room& room) const override;

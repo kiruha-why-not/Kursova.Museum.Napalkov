@@ -21,7 +21,6 @@ VolumetricExhibit::VolumetricExhibit(const std::string& title,
 double VolumetricExhibit::getObjWidth()  const { return objWidth;  }
 double VolumetricExhibit::getObjLength() const { return objLength; }
 double VolumetricExhibit::getObjHeight() const { return objHeight; }
-double VolumetricExhibit::getFootprint() const { return objWidth * objLength; }
 
 bool VolumetricExhibit::fitsInRoom(const Room& room) const {
     // Перевірка: об'єкт поміщається за шириною, довжиною та висотою

@@ -71,7 +71,9 @@ bool Room::addExhibit(const std::shared_ptr<Exhibit>& exhibit) {
         return false;
     }
 
-    exhibits.push_back(exhibit);    
+    exhibits.push_back(exhibit);
+    std::cout << "[+] Експонат \"" << exhibit->getTitle() << "\" розміщено!\n";
+    return true;
 }
 void Room::removeExhibit(int index) {
     if (index < 0 || index >= (int)exhibits.size())
