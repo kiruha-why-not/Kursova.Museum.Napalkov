@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MuseumNapalkov/MuseumNapalkov.vcxproj" Id="c317e9e5-f51c-4362-8145-ec86f4a8c101" />
+</Solution>
